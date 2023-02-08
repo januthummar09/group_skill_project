@@ -27,8 +27,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: const RealEstateScreen(),
-      home: const RealEstateTypeFristScreen(),
+      home: const RealEstateScreen(),
+      // home: const RealEstateTypeFristScreen(),
       // home: const ContinueEmailScreen(),
     );
   }
