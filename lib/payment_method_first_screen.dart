@@ -61,7 +61,7 @@ class _PaymentMethodFirstScreenState extends State<PaymentMethodFirstScreen> {
     Size size = MediaQuery.of(context).size;
     double heigth = size.height;
     double width = size.width;
-    double text = MediaQuery.textScaleFactorOf(context);
+    // double text = MediaQuery.textScaleFactorOf(context);
     return Scaffold(
       // resizeToAvoidBottomInset: false,
       backgroundColor: bgColor,
@@ -263,14 +263,28 @@ class _PaymentMethodFirstScreenState extends State<PaymentMethodFirstScreen> {
                                 ],
                               )
                             : intialIndex == 2
-                                ? Container(
-                                    height: 100,
-                                    width: 200,
-                                    color: Colors.blue,
+                                ? Column(
+                                    children: [
+                                      CommonTextfild(
+                                        textFildNameController:
+                                            paybleNameController,
+                                        isHintText: "Full name",
+                                        suffixIcon: Icons.person,
+                                        preffixIcon: Icons.person,
+                                      ),
+                                      SizedBox(
+                                        height: heigth / 40,
+                                      ),
+                                      CommonTextfild(
+                                        textFildNameController:
+                                            paybleEmailController,
+                                      ),
+                                      SizedBox(
+                                        height: heigth / 40,
+                                      ),
+                                    ],
                                   )
-                                : SizedBox(
-                                    height: heigth / 6,
-                                  ),
+                                : const SizedBox(),
 
                     Padding(
                       padding: const EdgeInsets.only(

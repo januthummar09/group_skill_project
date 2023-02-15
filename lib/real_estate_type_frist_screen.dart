@@ -42,7 +42,7 @@ class _RealEstateTypeFristScreenState extends State<RealEstateTypeFristScreen> {
     Size size = MediaQuery.of(context).size;
     double heigth = size.height;
     double width = size.width;
-    double text = MediaQuery.textScaleFactorOf(context);
+    // double text = MediaQuery.textScaleFactorOf(context);
     return Scaffold(
       body: SafeArea(
         child: Padding(

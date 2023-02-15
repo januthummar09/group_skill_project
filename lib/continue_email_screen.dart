@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:group_skill_project/common_widget/common_divider.dart';
 import 'package:group_skill_project/sign_in_six_screen.dart';
 
 import 'common_widget/common_button.dart';

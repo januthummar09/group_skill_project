@@ -4,7 +4,6 @@ import 'package:group_skill_project/common_widget/common_text.dart';
 import 'package:blurrycontainer/blurrycontainer.dart';
 import 'package:group_skill_project/continue_email_screen.dart';
 import 'common_widget/common_button.dart';
-import 'package:syncfusion_flutter_sliders/sliders.dart';
 
 class AddLocationTenScreen extends StatefulWidget {
   const AddLocationTenScreen({Key? key}) : super(key: key);

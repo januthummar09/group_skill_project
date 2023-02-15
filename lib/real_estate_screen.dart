@@ -21,19 +21,12 @@ class _RealEstateScreenState extends State<RealEstateScreen> {
         alignment: Alignment.bottomCenter,
         children: [
           const Image(
-            image: AssetImage("assets/imagess/real_estate.png"),
+            image: AssetImage("assets/imagess/Splash Screen.png"),
             width: double.infinity,
           ),
           Container(
             decoration: const BoxDecoration(
-              boxShadow: [
-                BoxShadow(
-                  blurStyle: BlurStyle.inner,
-                  color: Color(0xff21628A),
-                  blurRadius: 0.80,
-                  spreadRadius: .50,
-                ),
-              ],
+             
             ),
           ),
           Padding(
